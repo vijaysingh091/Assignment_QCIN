@@ -32,49 +32,47 @@
 ├── README.md                            ← This file
 │
 ├── Assignment_1_DATA_SETS.xlsx          ← Raw data (Assignment 1)
+   └── Outputs_Generated/
+       ├── ── Assignment 1 Outputs ──
+       ├── Q1_Standardized_Oil_Types.xlsx
+       ├── Q2_Descriptive_Analysis.xlsx
+       ├── Q3_PassFail_Results.xlsx
+       ├── Q4_Mismatch_Report.xlsx
+       ├── Q5_Master_Dataset.xlsx
+│
 ├── Assignment_2_DATA_SETS.xlsx          ← Raw data (Assignment 2)
-│
-├── Edible_Oil_Assignment.ipynb          ← Assignment 1 — Python notebook (Q1–Q5)
-├── PMSGMBY_Analysis.ipynb               ← Assignment 2 — Python notebook (A1–D4)
-├── PMSGMBY_SQL_Queries.sql              ← Assignment 2 — All SQL queries (S1–S8)
-├── PMSGMBY_SQL_Runner.py                ← Assignment 2 — Script to execute SQL & export results
-├── PMSGMBY_Excel_Builder.py             ← Assignment 2 — Script that built the Excel file
-│
-└── Outputs_Generated/
-    │
-    ├── ── Assignment 1 Outputs ──
-    ├── Q1_Standardized_Oil_Types.xlsx
-    ├── Q2_Descriptive_Analysis.xlsx
-    ├── Q3_PassFail_Results.xlsx
-    ├── Q4_Mismatch_Report.xlsx
-    ├── Q5_Master_Dataset.xlsx
-    │
-    ├── ── Assignment 2 Python Outputs ──
-    ├── A1_Missing_Data.png
-    ├── A2_Pipeline_Days_Histogram.png
-    ├── A3_Outlier_Treatment.png
-    ├── A5_Summary_Statistics.xlsx
-    ├── B1_Market_Cost_Gap.png
-    ├── B2_Interest_Rate_Breach_By_State.png
-    ├── B3_DISCOM_SLA.xlsx
-    ├── B4_Bill_Savings.png
-    ├── B5_DISCOM_Incentive.png
-    ├── C1_Pipeline_Funnel.png
-    ├── C2_Pipeline_By_State.png
-    ├── C3_ALMM_Compliance.png
-    ├── C4_Grievance_Analysis.png
-    ├── C5_Regression_Coefficients.png
-    ├── D1_Beneficiary_Share.png
-    ├── D2_Lorenz_Curve.png
-    ├── D3_Performance_Heatmap.png
-    ├── D4_Payback_Period.png
-    ├── PMSGMBY_Enriched_Dataset.xlsx
-    │
-    ├── ── Assignment 2 SQL Outputs ──
-    ├── PMSGMBY_SQL_Results.xlsx
-    │
-    └── ── Assignment 2 Excel Submission ──
-        └── Candidate_Name_Assignment_2.xlsx
+   ├── Edible_Oil_Assignment.ipynb          ← Assignment 1 — Python notebook (Q1–Q5)
+   ├── PMSGMBY_Analysis.ipynb               ← Assignment 2 — Python notebook (A1–D4)
+   ├── PMSGMBY_SQL_Queries.sql              ← Assignment 2 — All SQL queries (S1–S8)
+   ├── PMSGMBY_SQL_Runner.py                ← Assignment 2 — Script to execute SQL & export results
+   ├── PMSGMBY_Excel_Builder.py             ← Assignment 2 — Script that built the Excel file
+   └── Outputs_Generated/
+       ├── ── Assignment 2 Python Outputs ──
+       ├── A1_Missing_Data.png
+       ├── A2_Pipeline_Days_Histogram.png
+       ├── A3_Outlier_Treatment.png
+       ├── A5_Summary_Statistics.xlsx
+       ├── B1_Market_Cost_Gap.png
+       ├── B2_Interest_Rate_Breach_By_State.png
+       ├── B3_DISCOM_SLA.xlsx
+       ├── B4_Bill_Savings.png
+       ├── B5_DISCOM_Incentive.png
+       ├── C1_Pipeline_Funnel.png
+       ├── C2_Pipeline_By_State.png
+       ├── C3_ALMM_Compliance.png
+       ├── C4_Grievance_Analysis.png
+       ├── C5_Regression_Coefficients.png
+       ├── D1_Beneficiary_Share.png
+       ├── D2_Lorenz_Curve.png
+       ├── D3_Performance_Heatmap.png
+       ├── D4_Payback_Period.png
+       ├── PMSGMBY_Enriched_Dataset.xlsx
+       │
+       ├── ── Assignment 2 SQL Outputs ──
+       ├── PMSGMBY_SQL_Results.xlsx
+       │
+       └── ── Assignment 2 Excel Submission ──
+           └── Candidate_Name_Assignment_2.xlsx
 ```
 
 ---
@@ -211,6 +209,8 @@ pip install pandas openpyxl difflib
 ---
 
 ## Assignment 2 — PMSGMBY Beneficiary Analysis
+
+I Tried to do things via excel formulas but Excel was creating some problems. I did the same things via Python but I wrote the Excel formulas that would be used 
 
 ### Background & Dataset
 
