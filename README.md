@@ -431,5 +431,3 @@ pip install pandas numpy matplotlib seaborn scikit-learn openpyxl jupyter
 ```
 
 ---
-
-*README prepared as part of Data Analyst Assignment submission.*
