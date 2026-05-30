@@ -1,4 +1,4 @@
-# Data Analyst Assignments — README
+# Data Analyst Assignment
 
 > **Assignments:** Indian Market Surveillance Analysis (Assignment 1) & PMSGMBY Beneficiary Analysis (Assignment 2)
 > **Tools Used:** Python 3, Jupyter Notebook, SQLite, Microsoft Excel
